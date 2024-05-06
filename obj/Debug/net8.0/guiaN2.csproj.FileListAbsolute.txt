@@ -1,0 +1,14 @@
+C:\Users\Usuario\Desktop\guiaN2\obj\Debug\net8.0\guiaN2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\guiaN2\obj\Debug\net8.0\guiaN2.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\guiaN2\obj\Debug\net8.0\guiaN2.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\guiaN2\obj\Debug\net8.0\guiaN2.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\guiaN2\bin\Debug\net8.0\guiaN2.exe
+C:\Users\Usuario\Desktop\guiaN2\bin\Debug\net8.0\guiaN2.deps.json
+C:\Users\Usuario\Desktop\guiaN2\bin\Debug\net8.0\guiaN2.runtimeconfig.json
+C:\Users\Usuario\Desktop\guiaN2\bin\Debug\net8.0\guiaN2.dll
+C:\Users\Usuario\Desktop\guiaN2\bin\Debug\net8.0\guiaN2.pdb
+C:\Users\Usuario\Desktop\guiaN2\obj\Debug\net8.0\guiaN2.dll
+C:\Users\Usuario\Desktop\guiaN2\obj\Debug\net8.0\refint\guiaN2.dll
+C:\Users\Usuario\Desktop\guiaN2\obj\Debug\net8.0\guiaN2.pdb
+C:\Users\Usuario\Desktop\guiaN2\obj\Debug\net8.0\guiaN2.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\guiaN2\obj\Debug\net8.0\ref\guiaN2.dll
