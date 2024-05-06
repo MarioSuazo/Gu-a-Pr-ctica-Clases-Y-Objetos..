@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace guiaN2
+namespace eliminar
 {
     internal class Empleado
     {
@@ -21,7 +21,6 @@ namespace guiaN2
             this.activo = activo;
         }
 
-        /* Constructor con 3 Parámetros, Agregado para Procesar Objetos sin estado de actividad.*/
         public Empleado(string nombre, int numeroEmpleado, decimal salario)
         {
             this.nombre = nombre;
@@ -32,7 +31,7 @@ namespace guiaN2
         public void mostrarDetalles()
         {
             string estado = (activo) ? "Activo" : "Inactivo";
-            Console.WriteLine($"Nombre: {nombre}, Numero de Empleado: {numeroEmpleado}, Salario: {salario}, Estado: {estado}");
+            Console.WriteLine($"Nombre: {nombre},\tNumero de Empleado: {numeroEmpleado},    Salario: {salario:C},\tEstado: {estado}.");
         }
 
         public int obtenerNumeroEmpleado()
@@ -45,17 +44,40 @@ namespace guiaN2
             if (nuevoEstado == 1)
             {
                 activo = true;
-                Console.WriteLine("Empleado Activado.");
-            } 
+                Console.WriteLine("\nEmpleado Activo.");
+            }
             else if (nuevoEstado == 0)
             {
                 activo = false;
-                Console.WriteLine("Empleado Desactivado.");
+                Console.WriteLine("\nEmpleado Inactivo.");
             }
             else
             {
-                Console.WriteLine("Estado No Válido.");
+                Console.WriteLine("\nEstado No Válido.");
             }
         }
+
+        public decimal getSalario()
+        {
+            return salario;
+        }
+
+        public string getName()
+        {
+            return nombre;
+        }
+
+        /*Commit 2, función aumentar salario.
+         macho del método para aumentar salario.
+
+        Resultado = No Funcionó.
+
+        public void aumentarSalario(int numeroEmpleado)
+        {
+            Console.Write("Digitar el porcentaje a aumentar: ");
+            decimal porc = Convert.ToDecimal(Console.ReadLine());
+            decimal nuevoSalario = salario + (salario * porc);
+            Console.WriteLine($"Se aumentó el salario en {(porc / 100)} %.\nSu nuevo salario es de: {nuevoSalario}");
+        } */
     }
 }
